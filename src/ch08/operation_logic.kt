@@ -2,12 +2,7 @@ package ch08
 
 operator fun Complex.compareTo(other: Complex): Int {
 	var diff = real - other.real
-	var result = if (diff != 0) {
-		diff
-	} else {
-		imag - other.imag
-	}
-	return result
+	return if (diff != 0) diff else imag - other.imag	
 }
 
 fun main(args: Array<String>) {
