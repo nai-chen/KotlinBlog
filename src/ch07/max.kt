@@ -16,8 +16,8 @@ fun main(args: Array<String>) {
 	var max = max(list, {x, y -> x > y})
 	println(max) // 69
 	
-	var min = max(list) {
-		x, y -> x < y
+	max = max(list) {
+		x, y -> x > y
 	}
-	println(min)  // 5	
+	println(max)  // 69	
 }
