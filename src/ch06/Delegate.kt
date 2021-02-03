@@ -3,12 +3,12 @@ package ch06
 import kotlin.reflect.KProperty
 
 class Teacher {
-	// ½«nameÊôĞÔÎ¯ÍĞ¸øDelegateÀà
+	// å°†nameå±æ€§å§”æ‰˜ç»™Delegateç±»
 	var name: String by Delegate()
 }
 
 class Student {
-	// ½«nameÊôĞÔÎ¯ÍĞ¸øDelegateÀà
+	// å°†nameå±æ€§å§”æ‰˜ç»™Delegateç±»
 	var name: String by Delegate()
 }
 
@@ -16,12 +16,12 @@ class Delegate() {
 	var name: String = ""
 	
 	operator fun getValue(thisRef : Any?, property : KProperty<*>) : String {
-		println("Delegate.getValue ±»µ÷ÓÃ")
+		println("Delegate.getValue è¢«è°ƒç”¨")
 		return name
 	}
 	
 	operator fun setValue(thisRef : Any?, property : KProperty<*>, value : String) {
-		println("Delegate.setValue ±»µ÷ÓÃ")
+		println("Delegate.setValue è¢«è°ƒç”¨")
 		this.name = value;
 	}
 }

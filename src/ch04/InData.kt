@@ -11,5 +11,5 @@ fun main(args: Array<String>) {
 	var intData = InData<Int>()
 	var anyData = InData<Any>()
 	
-	intData = anyData  // InData<Any>¿ÉÒÔ¿´×öInData<Int>µÄ×ÓÀà
+	intData = anyData  // InData<Any>å¯ä»¥çœ‹åšInData<Int>çš„å­ç±»
 }

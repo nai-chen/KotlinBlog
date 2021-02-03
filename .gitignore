@@ -1,3 +1,4 @@
 
 *.class
 bin/META-INF/main.kotlin_module
+/bin/

@@ -19,12 +19,12 @@ class Delegate2<T>(initializer : () -> T) {
 	var className = initializer()
 	
 	operator fun getValue(thisRef : Any?, property : KProperty<*>) : String {
-		println("${className}.getValue ±»µ÷ÓÃ")
+		println("${className}.getValue è¢«è°ƒç”¨")
 		return name
 	}
 	
 	operator fun setValue(thisRef : Any?, property : KProperty<*>, value : String) {
-		println("${className}.setValue ±»µ÷ÓÃ")
+		println("${className}.setValue è¢«è°ƒç”¨")
 		this.name = value;
 	}
 }

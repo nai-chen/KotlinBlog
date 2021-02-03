@@ -3,7 +3,7 @@ package ch06
 import kotlin.properties.Delegates
 
 class Person {
-	// Mike�ǳ�ʼֵ
+	// Mike是初始值
 	var name : String by Delegates.observable("Mike") {
 		prop, oldValue, newValue ->
 			println("oldValue = $oldValue, newValue = $newValue")

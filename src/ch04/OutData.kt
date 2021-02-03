@@ -11,5 +11,5 @@ fun main(args: Array<String>) {
 	var strData = OutData<String>("Hello World")
 	var objData: OutData<Any> = OutData("Object")
 	
-	objData = strData  // OutData<String>¿ÉÒÔ¿´×öOutData<Any>µÄ×ÓÀà
+	objData = strData  // OutData<String>å¯ä»¥çœ‹åšOutData<Any>çš„å­ç±»
 }

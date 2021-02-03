@@ -17,14 +17,14 @@ class Anno {
 	}
 	
 	fun call() {
-		println(v1.x)  // ¿ÉÒÔ·ÃÎÊ£¬10
-		// println(v2.x)  ±àÒë´íÎó
+		println(v1.x)  // å¯ä»¥è®¿é—®ï¼Œ10
+		// println(v2.x)  ç¼–è¯‘é”™è¯¯
 		var op1 = foo()
-		op1.add(1)  // ¿ÉÒÔ·ÃÎÊ£¬11
-		println(op1.x)  // ¿ÉÒÔ·ÃÎÊ£¬10
+		op1.add(1)  // å¯ä»¥è®¿é—®ï¼Œ11
+		println(op1.x)  // å¯ä»¥è®¿é—®ï¼Œ10
 		var op2 = publicFoo()
-		op2.add(2)  // ¿ÉÒÔ·ÃÎÊ£¬12
-		// println(op2.x) ±àÒë´íÎó
+		op2.add(2)  // å¯ä»¥è®¿é—®ï¼Œ12
+		// println(op2.x) ç¼–è¯‘é”™è¯¯
 	}
 	
 }
